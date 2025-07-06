@@ -1,6 +1,5 @@
-Note! 
+# __FreqScanR.py__
 
-FreqScanR
 Is an experimental frequency scanning utility for more modern (> 2015) radios that support Yaesu CAT commands. Written by A. Del Vecchio and D. Doler K3DFD. 
 Feel free to fork this repository and make useful mods/improvements. Support for Icom transceivers would be ideal. If you create new frequency lists
 please share them with other Hams and especially the members of the Delaware Valley Radio Association.
@@ -54,8 +53,9 @@ Skip frequencies on the fly
 Stop scanning
     Click the “Stop” button to stop scanning. Note that this action does not terminate the program and the list remains displayed.
 
-NOTE! If you change the dwell time in the delay pulldown, be sure to then click on the frequency list box to take the focus off of the delay. This is a known issue
-and may be fixed in the next revision. If you don't the program may not scan through the list. Just select a new delay number, click on the listbox and try again.
+__If you change the dwell time in the delay pulldown, be sure to then click on the frequency listbox (tree control) to take the focus off of the delay. 
+This is a known issue and may be fixed in the next revision. If you don't the program may not scan through the list. Just select a new delay number, click on the 
+listbox and try again.__
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Formating the radio .cfg and frequency list .csv files -
 
