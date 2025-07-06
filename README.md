@@ -88,13 +88,7 @@ STOPBITS=2
 The frequency/description/mode-specific .csv file <freq_list>.cfg contains as many lines as desired
 
 The format is <frequency in hz>,<description up to 30 characters>,<mode USB LSB AM FM CW>
-For example, here's a list of HF time services contained in a simple text file called HFtime.csv:
-
-02500000,WWV Fort Collins Colorado USA 2.5kW,AM
-05000000,WWV Fort Collins Colorado USA 10kW,AM
-10000000,WWV Fort Collins Colorado USA 10kW,AM
-15000000,WWV Fort Collins Colorado USA 10kW,AM
-25000000,WWV Fort Collins Colorado USA 2.5kW,AM
+Look at one of the included .csv files for the format. It is very simple
 
 This is an experimental Python app written (mostly) by a non-Ham and may not always work as expected. If you fork a version for development, GNU General Public License v3.0 applies and please give attribution to the authors.
 
