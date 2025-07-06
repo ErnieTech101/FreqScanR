@@ -2,7 +2,6 @@
 An experimental frequency scanning utility for modern radios that support Yeasu CAT commands. Written by A. Del Vecchio and Dave Doler K3DFD. Feel
 free to fork this repository and make useful mods/improvements. Support for Icom transcievers would be ideal. If you create new frequency lists
 please share them with other Hams and especially the members of the DVRA.
-																FreqScanR Help file
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 FreqScanR is a Python script designed to interface with Yaesu transceivers via CAT (Computer Aided Transceiver) control. It sequentially steps through a 
 list of frequency-mode pairs, issuing the appropriate CAT commands to set the VFO frequency and operating mode for each entry. After tuning to each 
