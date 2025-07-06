@@ -1,7 +1,7 @@
 FreqScanR
 Is an experimental frequency scanning utility for more modern (> 2015) radios that support Yaesu CAT commands. Written by A. Del Vecchio and D. Doler K3DFD. 
 Feel free to fork this repository and make useful mods/improvements. Support for Icom transceivers would be ideal. If you create new frequency lists
-Please share them with other Hams and especially the members of the Delaware Valley Radio Association.
+please share them with other Hams and especially the members of the Delaware Valley Radio Association.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 FreqScanR is a Python script designed to interface with Yaesu transceivers via CAT (Computer Aided Transceiver) control. It sequentially steps through a 
