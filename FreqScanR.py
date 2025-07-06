@@ -1,3 +1,5 @@
+#Freq list scanner for Yeasu Radio via CAT. By Anthony Del Veccio and Dave Doler K3DFD
+
 import tkinter as tk
 import requests
 import threading
