@@ -32,26 +32,26 @@ Install tkinter, serial, datetime, numpy and pyserial
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Using FreqScanR (Read formatting the radio .cfg and frequency list .csv files section below first)*
 
-Connect your radio and turn the power on
-    Ensure your Yaesu FT-991A (or Yaesu-compatible radio) is powered on and connected to your computer via USB.
+Connect your radio and turn the power on.
+Ensure your Yaesu FT-991A (or Yaesu-compatible radio) is powered on and connected to your computer via USB.
 
-Load your radio profile
-    Click the “Load Radio Profile” button and select your radio’s configuration file (.cfg). See below for the expected format.
+Load your radio profile.
+Click the “Load Radio Profile” button and select your radio’s configuration file (.cfg). See below for the expected format.
 
-Load a frequency list
-    Click the “Open CSV” button and choose the .csv file containing the frequencies you want to scan. See below for the required format.
+Load a frequency list.
+Click the “Open CSV” button and choose the .csv file containing the frequencies you want to scan. See below for the required format.
 
-Set the scan delay
-    Use the “Delay” dropdown to select how long the program should pause (or "dwell") on each frequency before moving to the next.
+Set the scan delay.
+Use the “Delay” dropdown to select how long the program should pause (or "dwell") on each frequency before moving to the next.
 
 Start scanning
-    Click the “Start” button to begin scanning through your frequency list. You can pause/resume scanning at any time by pressing the spacebar.
+Click the “Start” button to begin scanning through your frequency list. You can pause/resume scanning at any time by pressing the spacebar.
 
 Skip frequencies on the fly
-    You can double-click a frequency in the list to skip it during scanning. Skipped rows will appear in gray. Double-click again to include them back in the scan.
+You can double-click a frequency in the list to skip it during scanning. Skipped rows will appear in gray. Double-click again to include them back in the scan.
 
 Stop scanning
-    Click the “Stop” button to stop scanning. Note that this action does not terminate the program and the list remains displayed.
+Click the “Stop” button to stop scanning. Note that this action does not terminate the program and the list remains displayed.
 
 __If you change the dwell time in the delay pulldown, be sure to then click on the frequency listbox (tree control) to take the focus off of the delay. 
 This is a known issue and may be fixed in the next revision. If you don't the program may not scan through the list. Just select a new delay number, click on the 
