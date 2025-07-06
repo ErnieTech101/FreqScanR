@@ -17,7 +17,7 @@ visually dimmed (displayed in gray) to indicate it is excluded from the active s
 the original text color (black) and returning the frequency to the scan cycle.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Before using FreqScanR.py:
+Before using FreqScanR.py: (Be sure to read the README.txt file for any rev history and bug calls)
 Download the files from this repository and place them all in the same directory. All .csv files should be in the same directory as FreqScanR.py,
 freqscanr.ini and the radio .cfg file.
 
@@ -29,7 +29,7 @@ like Thonny or directly using PIP. See Python's instruction if you are unfamilia
 Install tkinter, serial, datetime, numpy and pyserial
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Using FreqScanR (Read formatting the radio .cfg and frequency list .csv files section below first)
+Using FreqScanR (Read formatting the radio .cfg and frequency list .csv files section below first)*
 
 Connect your radio and turn the power on
     Ensure your Yaesu FT-991A (or Yaesu-compatible radio) is powered on and connected to your computer via USB.
@@ -52,6 +52,8 @@ Skip frequencies on the fly
 Stop scanning
     Click the “Stop” button to stop scanning. Note that this action does not terminate the program and the list remains displayed.
 
+NOTE! If you change the dwell time in the delay pulldown, be sure to thenclick on the frequency list box to take the focus off of the delay. This is a known issue
+and may be fixed in the next revision. If you don't the program may not scan through the list. Just select a new delay number, click on the listbox and try again.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Formating the radio .cfg and frequency list .csv files -
 
