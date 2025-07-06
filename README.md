@@ -18,7 +18,7 @@ visually dimmed (displayed in gray) to indicate it is excluded from the active s
 the original text color (black) and returning the frequency to the scan cycle.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Before using FreqScanR.py: (Be sure to read the README.txt file for any rev history and bug calls)
+Before using FreqScanR.py:
 Download the files from this repository and place them all in the same directory. All .csv files should be in the same directory as FreqScanR.py,
 freqscanr.ini and the radio .cfg file.
 
